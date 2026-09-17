@@ -51,7 +51,6 @@ jobs:
       with:
         python-version: "3.14"
     - uses: actions/checkout@v4
-    - uses: nanasess/setup-chromedriver@master
     - name: Install dependencies
       run: |
         SUDO=""
