@@ -76,7 +76,7 @@ jobs:
         mv ../ci/.coveragerc ./
         coverage run $(which fiduswriter) setup --no-static
     - name: Run test languagetool
-      uses: nick-fields/retry@v3
+      uses: nick-fields/retry@v4
       with:
         timeout_minutes: 8
         max_attempts: 3
